@@ -1,1 +1,15 @@
-Stylings for Excursion Coming Soon Page
+/* Universal Stylings */
+
+html {
+    background-color: black;
+    color: white;
+}
+
+a:visited { text-decoration: none; color: white; }
+a:hover { text-decoration: none; color: red; }
+a:focus { text-decoration: none; color: white; }
+a:hover, a:active { text-decoration: none; color: blue }
+
+h3 {}
+
+p {}
