@@ -2,14 +2,74 @@
 
 html {
     background-color: black;
-    color: white;
+    color: whitesmoke;
+    text-align: center;
 }
 
+a:link { text-decoration: none; color: white;}
 a:visited { text-decoration: none; color: white; }
-a:hover { text-decoration: none; color: red; }
-a:focus { text-decoration: none; color: white; }
-a:hover, a:active { text-decoration: none; color: blue }
+a:hover { text-decoration: none; color: blue; }
+a:active { text-decoration: none; color: yellow }
 
 h3 {}
 
 p {}
+
+
+/* Header */
+header {
+    display: block;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: rgb(27, 26, 26);
+    height: 70px;
+    width: 100%;
+    margin-left: 0;
+    text-align: left;
+}
+#logo {
+    float: left;
+    text-align: left;
+    margin-left: 20px;
+    font-family: ;
+}
+.navigation a {
+    display: inline-flex;
+    
+    justify-content: space-between;
+    align-content: center;
+
+    list-style: none;
+    border-right: thin solid white;
+    padding-right: 5px;
+
+}
+/* Discover hidden places in the world around you */
+.main {
+    padding-top: 80px;
+}
+
+/* Your personal travel guide */
+
+.flex {
+    margin-top: 30px;
+    margin-bottom: 45px;
+    align-content: center;
+}
+.flex img {
+    width: 100px;
+    height: auto;
+    flex: 0 1;
+    flex-direction: row;
+    opacity: 0.75;
+    margin: 5px;
+
+}
+
+/* Coming Soon */
+
+/* Media Queries */
+@media only 
