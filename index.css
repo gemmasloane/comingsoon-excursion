@@ -8,15 +8,12 @@ html {
 
 a:link { text-decoration: none; color: white;}
 a:visited { text-decoration: none; color: white; }
-a:hover { text-decoration: none; color: blue; }
+a:hover { text-decoration: none; color: teal; }
 a:active { text-decoration: none; color: yellow }
-
-h3 {}
-
-p {}
 
 
 /* Header */
+
 header {
     display: block;
     position: fixed;
@@ -24,7 +21,8 @@ header {
     top: 0;
     right: 0;
     left: 0;
-    background-color: rgb(27, 26, 26);
+    border-bottom: thin solid rgb(75, 75, 75);
+    background-color: black;
     height: 70px;
     width: 100%;
     margin-left: 0;
@@ -32,44 +30,101 @@ header {
 }
 #logo {
     float: left;
-    text-align: left;
     margin-left: 20px;
-    font-family: ;
 }
-.navigation a {
-    display: inline-flex;
-    
-    justify-content: space-between;
-    align-content: center;
-
+.navigation {
+    float: right;
+    margin-right: 10px;
+}
+.navigation ul li {
+    display: inline-block;
     list-style: none;
-    border-right: thin solid white;
+    border-right: thin solid teal;
     padding-right: 5px;
+    margin-top: 20px;
+    margin-right: 15px;
+}
+#logo h1 {
+    border: thin solid white;
+    padding: 1px 3px;
+    border-radius: 100%;
+}
 
-}
+
 /* Discover hidden places in the world around you */
+
 .main {
-    padding-top: 80px;
+    padding-top: 90px;
+    padding-bottom: 120px;
 }
+h2 {
+    font-size: 30px;
+}
+.call-to-action {
+    background-color: teal;
+    padding: 3px 15px;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+video {
+    margin-top: 28px;
+}
+
 
 /* Your personal travel guide */
 
+h3 {
+    font-size: 50px;
+    margin-bottom: -2px;
+}
+p {
+    font-size: 20px;
+}
 .flex {
-    margin-top: 30px;
-    margin-bottom: 45px;
+    margin-top: 20px;
+    margin-bottom: 30px;
     align-content: center;
 }
 .flex img {
-    width: 100px;
+    width: 120px;
     height: auto;
     flex: 0 1;
     flex-direction: row;
     opacity: 0.75;
     margin: 5px;
-
 }
 
 /* Coming Soon */
+.icon-phone {
+    margin-top: 50px;
+}
+.icon-phone img {
+    width: 45px;
+}
+.icon-phone h3 {
+    margin-top: 5px;
+    font-size: 30px;
+}
+.social {
+    margin-top: 30px;
+    font-size: 20px;
+}
 
+
+/* Footer */
+footer {
+    background-color: black);
+    border-top: thin solid grey;
+    
+    height: 30px;
+}
+.copyright {
+    display: inline-block;
+    float: right;
+    margin: 10px;
+    font-size: 14px;
+
+    
+} 
 /* Media Queries */
 @media only 
