@@ -6,6 +6,7 @@ html {
     text-align: center;
 }
 
+
 a:link { text-decoration: none; color: white;}
 a:visited { text-decoration: none; color: white; }
 a:hover { text-decoration: none; color: teal; }
@@ -57,6 +58,12 @@ header {
     padding-top: 90px;
     padding-bottom: 120px;
 }
+@media screen and (max-width: 500px) {
+    .main {
+        margin: 10px;
+    }
+}
+
 h2 {
     font-size: 30px;
 }
@@ -72,6 +79,16 @@ video {
 
 
 /* Your personal travel guide */
+.image-container img {
+    width: 100%;
+    height: auto;
+}
+@media screen and (max-width: 500px) {
+    .image-container image {
+        width: 470px;
+        height: auto;
+    }
+}
 
 h3 {
     font-size: 50px;
@@ -117,24 +134,30 @@ footer {
     border-top: thin solid grey;
     height: 30px;
 }
+.policy,
+.copyright {
+    font-size: 14px;
+    margin: 10px;
+}
+@media screen and (max-width: 500px) {
+    .policy,
+    .copyright {
+        font-size: 10px;
+    }
+}
 .policy {
     float: left;
     display: inline-block;
-    margin: 10px;
-    font-size: 14px;
 }
 .privacy {
-    padding: 0px 10px;
     border-right: thin solid whitesmoke;
+    padding-right: 10px;
 }
 .terms {
-    padding: 0 10px;
+    padding-left: 10px;
 }
 .copyright {
     display: inline-block;
     float: right;
-    margin: 10px;
-    font-size: 14px;
-} 
-/* Media Queries */
-@media only 
+}
+
