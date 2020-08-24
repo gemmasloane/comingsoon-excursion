@@ -115,16 +115,26 @@ p {
 footer {
     background-color: black);
     border-top: thin solid grey;
-    
     height: 30px;
+}
+.policy {
+    float: left;
+    display: inline-block;
+    margin: 10px;
+    font-size: 14px;
+}
+.privacy {
+    padding: 0px 10px;
+    border-right: thin solid whitesmoke;
+}
+.terms {
+    padding: 0 10px;
 }
 .copyright {
     display: inline-block;
     float: right;
     margin: 10px;
     font-size: 14px;
-
-    
 } 
 /* Media Queries */
 @media only 
