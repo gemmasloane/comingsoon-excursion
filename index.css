@@ -33,6 +33,12 @@ header {
     float: left;
     margin-left: 20px;
 }
+
+#logo h1 {
+    border: thin solid white;
+    padding: 1px 3px;
+    border-radius: 100%;
+}
 .navigation {
     float: right;
     margin-right: 10px;
@@ -45,10 +51,12 @@ header {
     margin-top: 20px;
     margin-right: 15px;
 }
-#logo h1 {
-    border: thin solid white;
-    padding: 1px 3px;
-    border-radius: 100%;
+@media screen and (max-width: 500px) {
+    .navigation ul li {
+        display: block;
+        font-size: 12px;
+        margin: 1px;
+    }
 }
 
 
